@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ANN_BP" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/methe/Workspace/ANN_BP/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ANN_BP">
+         <Option output="/home/methe/Workspace/ANN_BP/build/ANN_BP" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/methe/Workspace/ANN_BP/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/methe/Workspace/ANN_BP" />
+            <Add directory="/home/methe/Workspace/ANN_BP/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 ANN_BP" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ANN_BP/fast">
+         <Option output="/home/methe/Workspace/ANN_BP/build/ANN_BP" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/methe/Workspace/ANN_BP/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/methe/Workspace/ANN_BP" />
+            <Add directory="/home/methe/Workspace/ANN_BP/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 ANN_BP/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/methe/Workspace/ANN_BP/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/methe/Workspace/ANN_BP/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/methe/Workspace/ANN_BP/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/methe/Workspace/ANN_BP/main.cpp">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/src/ANN_BP_Layer.cpp">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/src/ANN_BP_Link.cpp">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/src/ANN_BP_Network.cpp">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/src/ANN_BP_Node.cpp">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/include/ANN_BP_Enums.h">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/include/ANN_BP_Layer.h">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/include/ANN_BP_Link.h">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/include/ANN_BP_Network.h">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/include/ANN_BP_Node.h">
+      </Unit>
+      <Unit filename="/home/methe/Workspace/ANN_BP/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
